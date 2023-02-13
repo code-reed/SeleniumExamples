@@ -35,6 +35,7 @@ def hudl_signup():
 
     # close the driver
     driver.quit()
-
+    
+# run method
 
 hudl_signup()
