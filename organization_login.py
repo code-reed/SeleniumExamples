@@ -30,7 +30,7 @@ def hudl_organization():
     if driver.find_element(By.XPATH, "//*[@id='app']/section/div/div/form/h2").is_displayed():
         print("What organization are you with?")
 
-    # sleep so driver immediately close
+    # sleep so driver doesn't immediately close
     time.sleep(10)
 
     # close the driver
