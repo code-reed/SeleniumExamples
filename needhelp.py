@@ -20,7 +20,7 @@ def hudl_help():
     # wait for the page to load
     driver.implicitly_wait(10)
 
-    # locate signup hyperlink and click
+    # locate need help hyperlink and click
     get_help = driver.find_element(By.LINK_TEXT, "Need help?")
     get_help.click()
 
