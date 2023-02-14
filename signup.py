@@ -30,7 +30,7 @@ def hudl_signup():
     if driver.find_element(By.LINK_TEXT, "invite code").is_displayed():
         print("Sign on up!")
 
-    # sleep so program driver immediately close
+    # sleep so program driver doesn't immediately close
     time.sleep(10)
 
     # close the driver
