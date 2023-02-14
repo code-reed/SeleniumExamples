@@ -14,7 +14,7 @@ def hudl_login():
     # navigate to hudl website
     driver.get("https://www.hudl.com")
 
-    # account credentials
+    # account variables, replace strings with desired credentials
     username = "username"
     password = "password"
 
