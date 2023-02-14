@@ -46,7 +46,7 @@ def hudl_login():
     else:
         print("Login Failed!")
 
-    # sleep so program driver immediately close
+    # sleep so program driver doesn't immediately close
     time.sleep(10)
 
     # close the driver
