@@ -30,7 +30,7 @@ def hudl_help():
     if driver.find_element(By.LINK_TEXT, "support@hudl.com").is_displayed():
         print("How can we help?")
 
-    # sleep so driver immediately close
+    # sleep so driver doesn't immediately close
     time.sleep(10)
 
     # close the driver
