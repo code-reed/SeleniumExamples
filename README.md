@@ -1,5 +1,5 @@
 # SeleniumAutomation
-Four short scripts written in Python that automate different login processes for Hudl.com
+Four short scripts written in Python that automate different login processes for Hudl.com. These scripts use the Selenium webdriver for Google Chrome.
 
 # Files 
 login.py: validates whether a user has entered a valid username and password
