@@ -10,5 +10,8 @@ signup.py: validates that a user can navigate to the signup page from the the lo
 
 needhelp.py: validates that a user can navigate to the "Need help" page from the login page
 
+# Notes
+In each file, the service variable `ser` will need to be changed to the pathname of the chromedriver on your machine. 
+
 # Known Errors/Bugs
 login.py: the "if-else" block does not print out the "Login failed" message when the wrong credentials are entered
